@@ -2,7 +2,7 @@
 
 # HFSS File Manager
 
-A desktop application for managing HFSS (High Frequency Structure Simulator) engineering projects. Scan `.aedt` project directories, estimate storage usage, add notes, and run `.aedt`-only backups with scheduled policies.
+A desktop application for managing HFSS engineering projects. Scan `.aedt` project directories, estimate storage usage, add notes, and run `.aedt`-only backups with scheduled policies.
 
 ## Features
 
