@@ -1,0 +1,30 @@
+[package]
+name = "hfss-file-manager"
+version = "0.1.0"
+description = "HFSS file and data manager"
+authors = ["you"]
+edition = "2021"
+
+[lib]
+name = "hfss_file_manager_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.0", features = [] }
+
+[dependencies]
+anyhow = "1.0.89"
+chrono = { version = "0.4.38", features = ["serde"] }
+rusqlite = { version = "0.32.1", features = ["bundled", "chrono"] }
+serde = { version = "1.0.210", features = ["derive"] }
+serde_json = "1.0.128"
+sha2 = "0.10.8"
+tauri = { version = "2.0", features = [] }
+tauri-plugin-dialog = "2.0"
+tokio = { version = "1.40.0", features = ["rt-multi-thread", "time"] }
+uuid = { version = "1.10.0", features = ["v4", "serde"] }
+walkdir = "2.5.0"
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
