@@ -52,7 +52,7 @@ A desktop application for managing HFSS (High Frequency Structure Simulator) eng
 
 ```bash
 # clone the repository
-git clone https://github.com/YOUR_USERNAME/hfss-file-manager.git
+git clone https://github.com/CDbb0905/hfss-file-manager.git
 cd hfss-file-manager
 
 # install frontend dependencies

@@ -52,7 +52,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/YOUR_USERNAME/hfss-file-manager.git
+git clone https://github.com/CDbb0905/hfss-file-manager.git
 cd hfss-file-manager
 
 # 安装前端依赖

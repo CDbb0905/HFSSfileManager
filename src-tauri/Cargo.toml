@@ -2,7 +2,7 @@
 name = "hfss-file-manager"
 version = "0.1.0"
 description = "HFSS file and data manager"
-authors = ["you"]
+authors = ["CDbb0905"]
 edition = "2021"
 
 [lib]
